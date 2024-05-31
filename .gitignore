@@ -1,0 +1,14 @@
+_site
+.sass-cache/
+*.DS_Store
+node_modules/
+Gemfile.lock
+.jekyll-metadata
+*.swp
+*.env
+auth.yaml
+__pycache__
+.jekyll-cache/
+
+.vscode/
+stack-stats/2024-02-27-boba/boba.ipynb

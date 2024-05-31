@@ -1,0 +1,96 @@
+div#vizContainer {
+  font-family: "Roboto", sans-serif;
+  width: 120%;
+  overflow-x: scroll;
+}
+
+svg {
+  width: 880px;
+  height: 550px;
+  display: block;
+  margin: auto;
+}
+
+g.axis {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.classNo, .className {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.classNo {
+  font-family: "Roboto Condensed", sans-serif;
+  fill: #6699CC;
+}
+
+.className {
+  font-family: "Nunito", sans-serif;
+  fill: #A23E48;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.classNumbers {
+  fill: #FF8C42;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button.selected {
+  background-color: lightgrey;
+}
+
+circle {
+  opacity: 0.9;
+}
+
+text.labelsY {
+  font-size: 0.8em;
+}
+
+figcaption {
+  text-align: center;
+}
+
+iframe.datatables {
+  border: none;
+  -webkit-box-shadow: 0px 0px 6px 5px rgba(128,128,128,0.1);
+  -moz-box-shadow: 0px 0px 6px 5px rgba(128,128,128,0.1);
+  box-shadow: 0px 0px 6px 5px rgba(128,128,128,0.1);
+  border-radius: 5px;
+  width: 100% !important;
+  overflow-x: scroll !important;
+}
+
+iframe#geVar {
+  height: 410px;
+}
+
+iframe#geAll {
+  height: 540px;
+}
+
+blockquote.note {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+article {
+  line-height: 1.75;
+}
+
+.dataTables_info {
+  font-size: smaller;
+  font-family: monospace;
+}
+
+.ui.button {
+  padding: 0.7em;
+  margin: 0.4em;
+}
